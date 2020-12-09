@@ -1,7 +1,7 @@
 import shutil 
 import os
 
-path =r'/home/arc/Downloads'
+path =r'<your path here>'
 k = os.listdir(path) 
 for k in k : 
     name, ext = os.path.splitext(k) 
